@@ -1,0 +1,5 @@
+com/sample/student/controller/StudentController.class
+com/sample/student/model/Student$StudentBuilder.class
+com/sample/student/model/Student.class
+com/sample/student/repo/StudentRepo.class
+com/sample/student/StudentApplication.class
