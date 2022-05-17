@@ -23,3 +23,8 @@ spring.datasource.url=jdbc:mysql://localhost:3306/studentdb -- jdbd:mysql://[mys
 spring.datasource.username=root -- [mysql username]
 spring.datasource.password=root -- [mysql password]
 
+References:
+[https://springframework.guru/spring-jdbctemplate-crud-operations/](https://springframework.guru/spring-jdbctemplate-crud-operations/)
+[https://www.baeldung.com/spring-jdbc-jdbctemplate](https://www.baeldung.com/spring-jdbc-jdbctemplate)
+[https://www.codeproject.com/Articles/1269020/Using-JdbcTemplate-in-a-Spring-Boot-Web-Applicatio](https://www.codeproject.com/Articles/1269020/Using-JdbcTemplate-in-a-Spring-Boot-Web-Applicatio)
+[https://www.javatpoint.com/spring-boot-jdbc-example](https://www.javatpoint.com/spring-boot-jdbc-example)
