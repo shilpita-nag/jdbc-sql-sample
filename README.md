@@ -2,14 +2,14 @@
 Spring Boot RESTful app with simple JDBC and MySql
 
 ### Setup MySQL on your local machine(Mac)
-% brew install mysql\n
-% brew services start mysql\n
-% mysql_secure_installation\n
-% brew services stop mysql\n
-% mysql.server start (To start mysql server)\n
-% mysql -h localhost -u root -p (To connect to the mysql server) --> Enter password given in the 'mysql_secure_installation' step
-[mysql> create database studentdb\n
-% mysql.server stop (To stop mysql server)\n
+brew install mysql \
+brew services start mysql \
+mysql_secure_installation \
+brew services stop mysql \ 
+mysql.server start (To start mysql server) \
+mysql -h localhost -u root -p (To connect to the mysql server) --> Enter password given in the 'mysql_secure_installation' step
+[mysql> create database studentdb
+mysql.server stop (To stop mysql server)
 
 ### Table Creation Query
 CREATE TABLE movies(id INT NOT NULL AUTO_INCREMENT,name VARCHAR(30) NOT NULL,dept VARCHAR(60) NOT NULL,roll VARCHAR(50) NOT NULL,PRIMARY KEY(id));
